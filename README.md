@@ -19,7 +19,8 @@ Works two ways:
 **Claude.ai / Desktop:** Settings → Capabilities → Skills → Add → upload this
 folder (or the packaged `.skill`).
 
-**Claude Code:** `/plugin marketplace add labhamllc/agentcents-skill`
+**Claude Code:** `/plugin marketplace add labham-llc/agentcents-skill`
+then `/plugin install agentcents@labham-skills`
 
 Then just ask things like:
 
@@ -35,7 +36,7 @@ assets/pricing.json      — price + capability snapshot (see _meta.verified_utc
 references/local-api.md  — live-mode reference for a locally running agentcents
 ```
 
-The snapshot is refreshed with each agentcents release.
+**Snapshot verified: 2026-07-15** (see `_meta.verified_utc`) — refreshed with each agentcents release.
 
 ## The product behind it
 

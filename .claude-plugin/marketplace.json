@@ -1,0 +1,17 @@
+{
+  "name": "labham-skills",
+  "version": "1.0.0",
+  "description": "Claude skills from Labham LLC",
+  "owner": { "name": "Labham LLC", "email": "founder1@labham.com" },
+  "plugins": [
+    {
+      "name": "agentcents",
+      "description": "Neutral LLM cost estimation and cost-based model selection — honest ranges, capability bars, Mermaid showdowns",
+      "version": "1.0.0",
+      "author": { "name": "Labham LLC", "email": "founder1@labham.com" },
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/agentcents"]
+    }
+  ]
+}
