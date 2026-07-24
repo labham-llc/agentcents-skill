@@ -1,13 +1,14 @@
 {
  "_meta": {
   "verified_utc": "2026-07-15",
+  "agentcents_version": "1.0.0",
   "unit": "USD per 1M tokens",
   "sources": [
    "provider pricing pages (hand-verified)",
-   "Artificial Analysis Intelligence Index v4.1"
+   "Artificial Analysis Intelligence Index"
   ],
-  "honesty": "Snapshot, not live. Intelligence is a GENERAL capability prior, not task-fit for a specific workload. A locally installed agentcents syncs live prices and calibrates output estimates on the user's own traffic; this file exists so the skill can give a useful consult with zero install.",
-  "local_note": "ollama/<model> running locally costs electricity only \u2014 typically $0.00001\u2013$0.0001 per call on consumer GPUs; treat as ~$0 in comparisons but never as literally free."
+  "honesty": "Snapshot, not live. Intelligence is a GENERAL capability prior, not task-fit. A locally installed agentcents syncs live prices and calibrates output estimates on the user's own traffic.",
+  "local_note": "ollama/<model> running locally costs electricity only; treat as ~$0 in comparisons, never as literally free."
  },
  "models": [
   {
